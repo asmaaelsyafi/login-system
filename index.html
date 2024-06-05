@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="login m-auto ">
+        <div class="container mt-5 p-4">
+            <div class="row ">
+                <div class="inner">
+                    <div class="text-center d-flex flex-column gap-3">
+                        <h1 class="mt-5">Smart Login System</h1>
+                        <input type="email" id="signInEmail" placeholder="Enter Your Email" class="w-100 p-2 " />
+                        <input type="password" id="signInPassword" placeholder="Enter Your Password" class="w-100 p-2" />
+                        <span class="d-none signincheck"> All inputs is required </span>
+                        <span class="d-none signinError">incorrect email or password</span>
+                        <a class="anchor"> <button  id="logIn" type="submit" class="w-100 py-2 form-control mt-3"> Login </button></a>
+                        <div  class="d-flex flex-row w-100 justify-content-center gap-2 join mb-4 ">
+                            <p>Don’t have an account? </p>
+                            <a href="./page2.html" class="anchor" target="_blank">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
